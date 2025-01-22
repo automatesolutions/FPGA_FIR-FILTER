@@ -1,0 +1,157 @@
+{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd} {2 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+** Warning: C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd(17): (vcom-1615) Existing entity 'sim_sharp' at C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp_self-checking.vhd(17) will be overwritten.
+-- Compiling entity sim_sharp
+** Warning: C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd(20): (vcom-1615) Existing architecture 'sim_sharp(sim)' at C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp_self-checking.vhd(20) will be overwritten.
+-- Compiling architecture sim of sim_sharp
+-- Loading entity sharp
+
+} {} {}} {{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_linemem.vhd}} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_linemem.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 15:11:43 on Jan 22,2025
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_linemem.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_linemem
+-- Compiling architecture behave of sharp_linemem
+End time: 15:11:43 on Jan 22,2025, Elapsed time: 0:00:00
+
+} {} {}} {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_linemem.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_linemem.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_linemem
+-- Compiling architecture behave of sharp_linemem
+
+} {} {}} {{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_arith.vhd}} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_arith.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 15:11:43 on Jan 22,2025
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_arith.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_arith
+-- Compiling architecture behave of sharp_arith
+End time: 15:11:43 on Jan 22,2025, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_slice.vhd}} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_slice.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 15:11:43 on Jan 22,2025
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_slice.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_slice
+-- Compiling architecture behave of sharp_slice
+-- Loading entity sharp_linemem
+-- Loading entity sharp_arith
+End time: 15:11:43 on Jan 22,2025, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_control.vhd}} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_control.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 15:11:43 on Jan 22,2025
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_control.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_control
+-- Compiling architecture behave of sharp_control
+End time: 15:11:43 on Jan 22,2025, Elapsed time: 0:00:00
+
+} {} {}} {{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp_self-checking.vhd}} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp_self-checking.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 15:11:43 on Jan 22,2025
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp_self-checking.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+** Warning: C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp_self-checking.vhd(17): (vcom-1615) Existing entity 'sim_sharp' at C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd(17) will be overwritten.
+-- Compiling entity sim_sharp
+** Warning: C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp_self-checking.vhd(20): (vcom-1615) Existing architecture 'sim_sharp(sim)' at C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd(20) will be overwritten.
+-- Compiling architecture sim of sim_sharp
+-- Loading entity sharp
+End time: 15:11:44 on Jan 22,2025, Elapsed time: 0:00:01
+
+} {} {}} {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_control.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_control.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_control
+-- Compiling architecture behave of sharp_control
+
+} {} {}} {{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd}} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 15:11:43 on Jan 22,2025
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/Verification/sim_sharp.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity sim_sharp
+-- Compiling architecture sim of sim_sharp
+-- Loading entity sharp
+End time: 15:11:43 on Jan 22,2025, Elapsed time: 0:00:00
+
+} {} {}} {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_arith.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_arith.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_arith
+-- Compiling architecture behave of sharp_arith
+
+} {} {}} {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_slice.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp_slice.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp_slice
+-- Compiling architecture behave of sharp_slice
+-- Loading entity sharp_linemem
+-- Loading entity sharp_arith
+
+} {} {}} {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp
+-- Compiling architecture behave of sharp
+-- Loading entity sharp_slice
+-- Loading entity sharp_control
+
+} {} {}} {{C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp.vhd}} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 15:11:44 on Jan 22,2025
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/jonel/OneDrive/Desktop/VHDL Projects/FPGA-FIR-Filter-master/FPGA-FIR-Filter-master/FPGA-Design/sharp.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sharp
+-- Compiling architecture behave of sharp
+-- Loading entity sharp_slice
+-- Loading entity sharp_control
+End time: 15:11:44 on Jan 22,2025, Elapsed time: 0:00:00
+
+} {} {}}
